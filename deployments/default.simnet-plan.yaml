@@ -55,6 +55,11 @@ plan:
             path: contracts/content.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: social-token
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/social-token.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: user-profile
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/user-profile.clar
